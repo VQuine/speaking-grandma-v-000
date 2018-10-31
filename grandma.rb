@@ -15,7 +15,7 @@
 def speak_to_grandma(s)
   if s == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
-  else !s.upcase?
+  else s.any? { |letter| letter.downcase? }
     return "HUH?! SPEAK UP, SONNY!"
   end
 end
