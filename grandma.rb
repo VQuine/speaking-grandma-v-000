@@ -14,11 +14,11 @@
 
 def speak_to_grandma(s)
   s = gets.strip
-  if !s.upcase? do
+  if .downcase?(s) do
     return "HUH?! SPEAK UP, SONNY!"
   elsif s = "I LOVE YOU GRANDMA!
       return "I LOVE YOU TOO PUMPKIN!"
-  else ?s.downcase
+  else .upcase?(s)
         return "NO, NOT SINCE 1938!"
   end
 end
