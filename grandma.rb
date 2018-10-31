@@ -15,10 +15,10 @@
 def speak_to_grandma(s)
   s = gets.strip
   if !s.upcase? do
-    return "HUH? SPEAK UP, SONNY!"
-    elsif s = "I LOVE YOU GRANDMA!
+    return "HUH?! SPEAK UP, SONNY!"
+  elsif s = "I LOVE YOU GRANDMA!
       return "I LOVE YOU TOO PUMPKIN!"
-      else
+  else
         s.downcase?
         return "NO, NOT SINCE 1938!"
   end
